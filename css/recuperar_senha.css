@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    list-style: none;
+    height: 100px;
+    background-color: white;
+}
+
+nav ul li{
+    list-style: none;
+    text-align: center;
+    padding-top: 10px;
+}
+
+body{
+    background-color:  rgb(199, 196, 196);
+    margin: 0;
+    padding: 0;
+}
+
+main header h1{
+    padding-top: 10px;
+    text-align: center;
+}
+
+section{
+    padding: 50px;
+    text-align: center;
+}
+
+section p{
+    font-size: 25px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    padding-top: 20px;
+    height: 50px;
+    width: 100%;
+    background-color: whitesmoke;
+    font-weight:bold;
+}
+
+.formulario table{
+    padding-top: 10px;
+    justify-content: center;
+    display: flex;
+}
+
+.formulario h3{
+    margin-top: 20px;
+}
+
+.formulario input[type=text], input[type=email]{
+    height: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 350px;
+    border-color: white;
+}
+
+.formulario input[type=button] {
+    height: 40px;
+    width: 100px;    
+    margin-top: 20px;
+}

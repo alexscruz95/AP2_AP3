@@ -1,0 +1,79 @@
+*{
+    margin: auto;
+}
+
+nav{
+    list-style: none;
+    height: 100px;
+    background-color: white;
+}
+
+nav ul li{
+    list-style: none;
+    text-align: center;
+    padding-top: 10px;
+}
+
+body{
+    background-color:  rgb(199, 196, 196);
+    margin:0;
+    padding:0;
+}
+
+main header{
+    padding-top: 10px;
+    border-bottom: 5px solid white;
+    width: 5%;
+    text-align: center;
+}
+
+.formulario{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.formulario ul li{
+    list-style: none;
+    padding: 5px;
+}
+
+.formulario ul li a{
+    font-weight: bold;
+    color: black;
+}
+
+.formulario ul li a:hover, a:link{
+    text-decoration: none;
+}
+
+.formulario input[type=email], input[type=password]{
+    height: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 350px;
+    border-color: white;
+}
+
+.formulario input[type=button] {
+    height: 40px;
+    width: 100px;    
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    padding-top: 20px;
+    height: 50px;
+    width: 100%;
+    background-color: whitesmoke;
+    font-weight:bold;
+}
+
+.depoimento{
+    margin-top: 100px;
+}
+.depoimento img{
+    border-radius: 50%;
+}

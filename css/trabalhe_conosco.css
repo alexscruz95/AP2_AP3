@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    list-style: none;
+    height: 100px;
+    background-color: white;
+}
+
+nav ul li{
+    list-style: none;
+    text-align: center;
+    padding-top: 10px;
+}
+
+body{
+    background-color:  rgb(199, 196, 196);
+    margin: 0;
+    padding: 0;
+}
+
+main header h1{
+    padding-top: 10px;
+    text-align: center;
+}
+
+section{
+    padding: 50px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+section p{
+    font-size: 25px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+#trabalheConosco img{
+    border-radius: 50%;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    padding-top: 20px;
+    height: 50px;
+    width: 100%;
+    background-color: whitesmoke;
+    font-weight:bold;
+}
+
+table{
+    padding-top: 10px;
+    justify-content: center;
+    display: flex;
+}
+
+#trabalheConosco input[type=text]{
+    height: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 350px;
+    border-color: white;
+}
+
+#trabalheConosco input[type=button] {
+    height: 40px;
+    width: 100px;    
+}
